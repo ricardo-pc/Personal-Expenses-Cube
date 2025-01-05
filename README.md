@@ -49,3 +49,16 @@ This repository is organized as follows:
 
 - `05 Consolidated Categorized Dataset/`: Output of the Working Structure - Categorizer Layer.
 
+## Data
+
+This project relies on datasets stored in the `0 Data/` directory. Below are the details:
+
+---
+### **1. Included Datasets**
+The following datasets are included in the repository:
+  - `AMEX`: Demo data from American Express.
+  - `BBVA Credit`: Demo data from BBVA bank, credit account.
+  - `BBVA Debit`: Demo data from BBVA bank, debit account.
+  - `HeyBanco Credit`: Demo data from HeyBanco, credit account.
+  - `HeyBanco Debit`: Demo data from HeyBanco, debit account.
+
