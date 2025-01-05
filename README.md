@@ -21,6 +21,7 @@ The project is desgined in the following way:
 ### **Provision Layer**
   - Prepares expense data into an unified single source of truth
   - One script per financial institution and credit/debit accounts
+  - [AMEX - Provision Layer notebook](Personal-Expenses-Cube/01 Scripts/amex-tdc-script.ipynb)
 
 ### **Working Structure - Composer Layer**
   - Combines all individual sources into one file
