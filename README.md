@@ -21,15 +21,21 @@ The project is desgined in the following way:
 ### **Provision Layer**
   - Prepares expense data into an unified single source of truth
   - One script per financial institution and credit/debit accounts
-  - [AMEX - Provision Layer notebook](https://github.com/ricardo-pc/Personal-Expenses-Cube/blob/main/01%20Scripts/amex-tdc-script.ipynb)
+  - 📕 [AMEX - Provision Layer notebook](https://github.com/ricardo-pc/Personal-Expenses-Cube/blob/main/01%20Scripts/amex-tdc-script.ipynb)
+  - 📕 [BBVA Debit - Provision Layer notebook](https://github.com/ricardo-pc/Personal-Expenses-Cube/blob/main/01%20Scripts/bbva-tdb-script.ipynb)
+  - 📕 [BBVA Credit - Provision Layer notebook](https://github.com/ricardo-pc/Personal-Expenses-Cube/blob/main/01%20Scripts/bbva-tdc-script.ipynb)
+  - 📕 [HeyBanco Debit - Provision Layer notebook](https://github.com/ricardo-pc/Personal-Expenses-Cube/blob/main/01%20Scripts/heybanco-tdb-script.ipynb)
+  - 📕 [HeyBanco Credit - Provision Layer notebook](https://github.com/ricardo-pc/Personal-Expenses-Cube/blob/main/01%20Scripts/heybanco-tdc-script.ipynb)
 
 ### **Working Structure - Composer Layer**
   - Combines all individual sources into one file
   - Manual additions and changes can be applied here
+  - 📕 [Working Structure - Composer Layer notebook](https://github.com/ricardo-pc/Personal-Expenses-Cube/blob/main/01%20Scripts/spendcube-composer-script.ipynb)
 
 
 ### **Working Structure - Categorizer Layer**
   - Categorizes the spend
+  - 📕 [Working Structure - Categorizer Layer notebook](https://github.com/ricardo-pc/Personal-Expenses-Cube/blob/main/01%20Scripts/spendcube-categorizer-script.ipynb)
 
 ## **Project Structure**
 
