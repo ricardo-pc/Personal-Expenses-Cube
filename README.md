@@ -1,5 +1,5 @@
 # Personal Expenses Cube
-Collection of Python scripts to transform and consolidate my personal expense date from various debit and credit accounts, harmonizing the data into a unified data cube for analysis and wealth management.
+A collection of Python scripts to transform and consolidate my personal expense data from various debit and credit accounts, harmonizing the information into a unified data cube for analysis and wealth management.
 
 
 ## Table of Contents
@@ -11,16 +11,18 @@ Collection of Python scripts to transform and consolidate my personal expense da
 
 
 ## About the Project
-To achieve my personal goal of starting a master’s degree in Data Science, I first needed to secure the financial stability that would make it possible. With this in mind, I created a personal project to monitor my spending and increase my savings. After implementing this project for two years, I successfully raised my savings rate from 10% to 40%, bringing me closer to my goal.
+To achieve my personal goal of starting a master’s degree in Data Science, I first needed to secure the financial stability that would make it possible. With this in mind, I developed a personal project to monitor my spending and increase my savings.
 
-The core value of this project lies in consolidating all transactions from my various accounts into a unified source of truth. This integration has proven powerful, as it enables me to gain insights and identify areas where spending can be optimized. The project covers three financial institutions — BBVA, AMEX, and HeyBanco — including both debit and credit accounts.
+After implementing this project for two years, I successfully raised my savings rate from 10% to 40%, bringing me closer to my goal.
+
+The core value of this project lies in consolidating all transactions from my various accounts into a unified source of truth. This integration has proven to be a powerful tool, enabling me to gain insights and identify areas where spending can be optimized. The project covers three financial institutions — BBVA, AMEX, and HeyBanco — across both debit and credit accounts.
 
 ## Features
-The project is desgined in the following way:
+The project is designed with the following structure:
 
 ### **Provision Layer**
-  - Prepares expense data into an unified single source of truth
-  - One script per financial institution and credit/debit accounts
+  - Prepares expense data into a unified single source of truth.
+  - Includes one script per financial institution and account type (debit or credit).
   - 📕 [AMEX - Provision Layer notebook](https://github.com/ricardo-pc/Personal-Expenses-Cube/blob/main/01%20Scripts/amex-tdc-script.ipynb)
   - 📕 [BBVA Debit - Provision Layer notebook](https://github.com/ricardo-pc/Personal-Expenses-Cube/blob/main/01%20Scripts/bbva-tdb-script.ipynb)
   - 📕 [BBVA Credit - Provision Layer notebook](https://github.com/ricardo-pc/Personal-Expenses-Cube/blob/main/01%20Scripts/bbva-tdc-script.ipynb)
@@ -28,13 +30,13 @@ The project is desgined in the following way:
   - 📕 [HeyBanco Credit - Provision Layer notebook](https://github.com/ricardo-pc/Personal-Expenses-Cube/blob/main/01%20Scripts/heybanco-tdc-script.ipynb)
 
 ### **Working Structure - Composer Layer**
-  - Combines all individual sources into one file
-  - Manual additions and changes can be applied here
+  - Combines all individual sources into one file.
+  - Manual additions and changes can be applied here.
   - 📕 [Working Structure - Composer Layer notebook](https://github.com/ricardo-pc/Personal-Expenses-Cube/blob/main/01%20Scripts/spendcube-composer-script.ipynb)
 
 
 ### **Working Structure - Categorizer Layer**
-  - Categorizes the spend
+  - Categorizes the spending.
   - 📕 [Working Structure - Categorizer Layer notebook](https://github.com/ricardo-pc/Personal-Expenses-Cube/blob/main/01%20Scripts/spendcube-categorizer-script.ipynb)
 
 ## **Project Structure**
